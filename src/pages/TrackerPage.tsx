@@ -23,6 +23,13 @@ export default function FoodTracker() {
       <Button>Add Food Item</Button>
       {/* Type additional AddFoodModal here. */}
 
+      <Title order={4}>Main Course: {} Baht</Title>
+      <Title order={4}>Drink: {} Baht</Title>
+      <Title order={4}>Dessert: {} Baht</Title>
+
+
+
+
       <Divider my="md" />
       {/* Type additional total cost here. */}
       <Title order={4}>Total cost: {} Baht</Title>
