@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 import { AppShell } from "@mantine/core";
 import HeaderComponent from "../components/Header";
 import { useDisclosure } from "@mantine/hooks";
-import FooterComponent from "../components/Footer";
+// import FooterComponent from "../components/Footer";
 export default function MainLayout() {
   const [opened, { toggle }] = useDisclosure();
   return (
@@ -16,7 +16,7 @@ export default function MainLayout() {
         <HeaderComponent opened={opened} toggle={toggle} />
       </AppShell.Header>
       <AppShell.Footer>
-        <FooterComponent year="2025" fullName="Tirapat" studentId="670612123" />
+        {/* <FooterComponent year="2025" fullName="Tirapat" studentId="670612123" /> */}
       </AppShell.Footer>
       <AppShell.Main>
         <Outlet />
