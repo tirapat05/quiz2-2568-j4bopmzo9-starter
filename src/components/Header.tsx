@@ -39,7 +39,7 @@ export default function HeaderComponent({
           variant="gradient"
           gradient={{ from: "red", to: "blue", deg: 90 }}
         >
-          TRACKER-APP
+          TRACKER-APP🍰
         </Text>
       </Group>
       <Group gap={5}>
